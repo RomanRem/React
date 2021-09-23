@@ -1,0 +1,1050 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Medium.eot");
+  src: local("SF Pro Display Medium"), local("./assets/fonts/SFProDisplay-Medium"), url("./assets/fonts/SFProDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-Medium.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-Medium.woff") format("woff"), url("./assets/fonts/SFProDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Heavy.eot");
+  src: local("SF Pro Display Heavy"), local("./assets/fonts/SFProDisplay-Heavy"), url("./assets/fonts/SFProDisplay-Heavy.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-Heavy.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-Heavy.woff") format("woff"), url("./assets/fonts/SFProDisplay-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-UltralightItalic.eot");
+  src: local("SF Pro Display UltralightItalic"), local("./assets/fonts/SFProDisplay-UltralightItalic"), url("./assets/fonts/SFProDisplay-UltralightItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-UltralightItalic.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-UltralightItalic.woff") format("woff"), url("./assets/fonts/SFProDisplay-UltralightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-RegularItalic.eot");
+  src: local("SF Pro Display Regular Italic"), local("./assets/fonts/SFProDisplay-RegularItalic"), url("./assets/fonts/SFProDisplay-RegularItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-RegularItalic.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-RegularItalic.woff") format("woff"), url("./assets/fonts/SFProDisplay-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Thin.eot");
+  src: local("SF Pro Display Thin"), local("./assets/fonts/SFProDisplay-Thin"), url("./assets/fonts/SFProDisplay-Thin.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-Thin.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-Thin.woff") format("woff"), url("./assets/fonts/SFProDisplay-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Light.eot");
+  src: local("SF Pro Display Light"), local("./assets/fonts/SFProDisplay-Light"), url("./assets/fonts/SFProDisplay-Light.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-Light.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-Light.woff") format("woff"), url("./assets/fonts/SFProDisplay-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-BlackItalic.eot");
+  src: local("SF Pro Display Black Italic"), local("./assets/fonts/SFProDisplay-BlackItalic"), url("./assets/fonts/SFProDisplay-BlackItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-BlackItalic.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-BlackItalic.woff") format("woff"), url("./assets/fonts/SFProDisplay-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Bold.eot");
+  src: local("SF Pro Display Bold"), local("./assets/fonts/SFProDisplay-Bold"), url("./assets/fonts/SFProDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-Bold.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-Bold.woff") format("woff"), url("./assets/fonts/SFProDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Black.eot");
+  src: local("SF Pro Display Black"), local("./assets/fonts/SFProDisplay-Black"), url("./assets/fonts/SFProDisplay-Black.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-Black.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-Black.woff") format("woff"), url("./assets/fonts/SFProDisplay-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-SemiboldItalic.eot");
+  src: local("SF Pro Display SemiboldItalic"), local("./assets/fonts/SFProDisplay-SemiboldItalic"), url("./assets/fonts/SFProDisplay-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-SemiboldItalic.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-SemiboldItalic.woff") format("woff"), url("./assets/fonts/SFProDisplay-SemiboldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Ultralight.eot");
+  src: local("SF Pro Display Ultralight"), local("./assets/fonts/SFProDisplay-Ultralight"), url("./assets/fonts/SFProDisplay-Ultralight.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-Ultralight.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-Ultralight.woff") format("woff"), url("./assets/fonts/SFProDisplay-Ultralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-LightItalic.eot");
+  src: local("SF Pro Display LightItalic"), local("./assets/fonts/SFProDisplay-LightItalic"), url("./assets/fonts/SFProDisplay-LightItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-LightItalic.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-LightItalic.woff") format("woff"), url("./assets/fonts/SFProDisplay-LightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-ThinItalic.eot");
+  src: local("SF Pro Display ThinItalic"), local("./assets/fonts/SFProDisplay-ThinItalic"), url("./assets/fonts/SFProDisplay-ThinItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-ThinItalic.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-ThinItalic.woff") format("woff"), url("./assets/fonts/SFProDisplay-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-MediumItalic.eot");
+  src: local("SF Pro Display MediumItalic"), local("./assets/fonts/SFProDisplay-MediumItalic"), url("./assets/fonts/SFProDisplay-MediumItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-MediumItalic.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-MediumItalic.woff") format("woff"), url("./assets/fonts/SFProDisplay-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Semibold.eot");
+  src: local("SF Pro Display Semibold"), local("./assets/fonts/SFProDisplay-Semibold"), url("./assets/fonts/SFProDisplay-Semibold.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-Semibold.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-Semibold.woff") format("woff"), url("./assets/fonts/SFProDisplay-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-HeavyItalic.eot");
+  src: local("SF Pro Display HeavyItalic"), local("./assets/fonts/SFProDisplay-HeavyItalic"), url("./assets/fonts/SFProDisplay-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-HeavyItalic.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-HeavyItalic.woff") format("woff"), url("./assets/fonts/SFProDisplay-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Regular.eot");
+  src: local("SF Pro Display Regular"), local("./assets/fonts/SFProDisplay-Regular"), url("./assets/fonts/SFProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-Regular.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-Regular.woff") format("woff"), url("./assets/fonts/SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-BoldItalic.eot");
+  src: local("SF Pro Display BoldItalic"), local("./assets/fonts/SFProDisplay-BoldItalic"), url("./assets/fonts/SFProDisplay-BoldItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SFProDisplay-BoldItalic.woff2") format("woff2"), url("./assets/fonts/SFProDisplay-BoldItalic.woff") format("woff"), url("./assets/fonts/SFProDisplay-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* scroll */
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.header {
+  min-width: 1100px;
+  height: 78px;
+  background: #323232;
+}
+
+.inner {
+  height: 100%;
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.logo-pick {
+  margin-top: 5px;
+  height: 50px;
+}
+
+.menubar {
+  width: 200px;
+  height: 100%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menubar-item {
+  width: 40px;
+  height: 40px;
+  margin-right: 42px;
+}
+
+.menubar-item:last-child {
+  margin-right: 0;
+}
+
+.home {
+  background: url("./assets/img/Home.svg") no-repeat;
+  background-size: contain;
+  transition: all 0.3s;
+}
+
+.home:hover {
+  background: url("./assets/img/homeHover.svg") no-repeat;
+  background-size: contain;
+}
+
+.home.active {
+  background: url("./assets/img/homeHover.svg") no-repeat;
+  background-size: contain;
+}
+
+.favorite {
+  cursor: pointer;
+  background: url("./assets/img/Star.svg") no-repeat;
+  background-size: contain;
+  transition: all 0.3s;
+}
+
+.favorite:hover {
+  background: url("./assets/img/starHover.png") no-repeat;
+  background-size: contain;
+}
+
+.favorite.active {
+  background: url("./assets/img/starHover.png") no-repeat;
+  background-size: contain;
+}
+
+.cart {
+  cursor: pointer;
+  background: url("./assets/img/Buy.svg") no-repeat;
+  background-size: contain;
+  transition: 0.3s;
+}
+
+.cart:hover {
+  cursor: pointer;
+  background: url("./assets/img/buyHover.png") no-repeat;
+  background-size: contain;
+}
+
+.cart.active {
+  cursor: pointer;
+  background: url("./assets/img/buyHover.png") no-repeat;
+  background-size: contain;
+}
+
+.slider {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(93.84deg, #28b485 0%, #7ed56f 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.text {
+  width: 575px;
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+}
+
+.text a {
+  color: #fff;
+}
+
+.slider-page {
+  width: 50px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.l-arrow {
+  cursor: pointer;
+}
+
+.r-arrow {
+  cursor: pointer;
+}
+
+.page {
+  width: 12px;
+  height: 12px;
+  border: 2px solid white;
+  border-radius: 100%;
+  transition-duration: 0.5s;
+}
+
+.page.active {
+  background: white;
+}
+
+.page:hover {
+  cursor: pointer;
+  background: white;
+}
+
+.card {
+  width: 150px;
+  height: 205px;
+}
+
+.right-pick {
+  cursor: pointer;
+}
+
+.left-pick {
+  cursor: pointer;
+}
+
+.card-wrap {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #323232;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  padding: 12px 14px;
+  font-size: 14px;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  color: white;
+  width: 90px;
+  height: 30px;
+  background: linear-gradient(93.84deg, #28b485 0%, #7ed56f 100%);
+  border-radius: 6px;
+  border: none;
+}
+
+.img {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.card-pick {
+  width: 122px;
+  height: 71px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.card-pick:hover {
+  transform: scale(1.1);
+}
+
+.pick-star {
+  width: 23px;
+  height: 23px;
+  background: url("./assets/img/StarCard.svg");
+  background-size: contain;
+  transition: 0.5s;
+}
+
+.pick-star:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  background: url("./assets/img/starCardHover.svg") no-repeat;
+  background-size: contain;
+}
+
+.pick-star.active {
+  background: url("./assets/img/starCardHover.svg") no-repeat;
+  background-size: contain;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.top {
+  width: 100%;
+  margin-top: 45px;
+}
+
+.top-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.title-text {
+  font-size: 48px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.big-card {
+  width: 235px;
+  height: 320px;
+}
+
+.big-card-wrap {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #323232;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  padding: 12px 14px;
+  font-size: 14px;
+}
+
+.big-card-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.big-card-button {
+  color: white;
+  width: 155px;
+  height: 45px;
+  background: linear-gradient(93.84deg, #28b485 0%, #7ed56f 100%);
+  border-radius: 6px;
+  border: none;
+  font-size: 24px;
+  transition: all 0.3s;
+}
+
+.big-card-button:hover {
+  transform: scale(1.1);
+}
+
+.big-card-img {
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.big-card-pick {
+  margin-top: 10px;
+  width: 180px;
+  height: 105px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.big-card-pick:hover {
+  transform: scale(1.1)
+}
+
+.big-card-star-pick {
+  width: 35px;
+  height: 35px;
+}
+
+.big-pick-star {
+  width: 35px;
+  height: 35px;
+  background: url("./assets/img/StarCard.svg") no-repeat;
+  background-size: contain;
+  transition: 0.5s;
+}
+
+.big-pick-star:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  background: url("./assets/img/starCardHover.svg") no-repeat;
+  background-size: contain;
+}
+
+.big-pick-star.active {
+  background: url("./assets/img/starCardHover.svg") no-repeat;
+  background-size: contain;
+}
+
+.catalog {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.catalog-wrap {
+  position: relative;
+}
+
+.sortPopup {
+  margin-top: 10px;
+  position: absolute;
+  top: 50px;
+  right: -50px;
+  z-index: 2;
+}
+
+.sortPopup>ul>li {
+  font-size: 19px;
+  font-weight: 600;
+  border: 1px solid;
+  padding: 3px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background-color: #FCFFF2;
+  width: 120px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sortPopup>ul>li:hover {
+  background-color: #F8FFA4;
+}
+
+.sortPopup>ul>li.active {
+  background: linear-gradient(93.84deg, #28b485 0%, #7ed56f 100%);
+}
+
+.sortPopup>ul>li+li {
+  border-top: none;
+}
+
+.sortPopup>ul>li:first-child {
+  border-radius: 4px 4px 0 0;
+}
+
+.sortPopup>ul>li:last-child {
+  border-radius: 0 0 4px 4px;
+}
+
+.catalog-line {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.catalog-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+}
+
+.catalog-title-name {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.catalog-button-wrap {
+  padding-bottom: 63px;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.catalog-button {
+  width: 150px;
+  height: 45px;
+  background: linear-gradient(93.84deg, #28b485 0%, #7ed56f 100%);
+  border-radius: 6px;
+  border: 0 solid #323232;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+.catalog-filter {
+  width: 40px;
+  height: 40px;
+  background: url("./assets/img/Filter.png") no-repeat;
+  background-size: contain;
+  transition: 0.3s;
+}
+
+.catalog-filter:hover {
+  cursor: pointer;
+  background: url("./assets/img/filterHover.svg") no-repeat;
+  background-size: contain;
+}
+
+.footer {
+  min-width: 1100px;
+  padding: 10px 10px;
+  color: white;
+  background: #323232;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.contacts {
+  background: url("./assets/img/insta.png") no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.contacts:hover {
+  cursor: pointer;
+  background: url("./assets/img/instaHover.png") no-repeat;
+  background-size: contain;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.navbar-links a {
+  color: #fff;
+}
+
+.footer-navbar {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar-item {
+  transition: 0.3s;
+}
+
+.navbar-item:hover {
+  color: gray;
+}
+
+.footer-info {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "SF Pro Display", sans-serif;
+}
+
+button {
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.main .inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  grid-area: footer;
+  font-family: "Roboto", monospace;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+/* cart-page */
+
+.cart-list {
+  margin-top: 80px;
+}
+
+.cart-card {
+  margin-top: 30px;
+  width: 980px;
+  height: 275px;
+}
+
+.big {
+  font-size: 24px;
+}
+
+.cart-card-wrap {
+  width: 70vw;
+  height: 100%;
+  border: 2px solid #323232;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 12px 20px;
+  font-size: 24px;
+}
+
+.cart-card-bar {
+  height: 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.cart-card-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 15px 0;
+}
+
+.cart-card-button {
+  margin-left: 15px;
+  color: white;
+  width: 155px;
+  height: 45px;
+  background: linear-gradient(93.84deg, #28b485 0%, #7ed56f 100%);
+  border-radius: 6px;
+  border: none;
+  font-size: 24px;
+  transition: all 0.3s;
+}
+
+.cart-card-button:hover {
+  transform: scale(1.1);
+}
+
+.cart-card-img {
+  display: flex;
+}
+
+.cart-card-pick {
+  margin-top: 10px;
+  width: 300px;
+  height: 180px;
+}
+
+.cart-pick-star {
+  width: 45px;
+  height: 45px;
+  background: url("./assets/img/StarCard.svg") no-repeat;
+  background-size: contain;
+  transition: 0.5s;
+}
+
+.cart-pick-star:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  background: url("./assets/img/starCardHover.svg") no-repeat;
+  background-size: contain;
+}
+
+.cart-pick-star.active {
+  background: url("./assets/img/starCardHover.svg") no-repeat;
+  background-size: contain;
+}
+
+.cancel {
+  background: white;
+  color: black;
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(93.84deg, #28b485 0%, #7ed56f 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.cancel:hover {
+  box-shadow: none;
+  color: white;
+  border: none;
+}
+
+.cart-button {
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.sum {
+  width: 80px;
+  height: 20px;
+  border: 2px solid black;
+  background: white;
+  font-size: 15px;
+  color: black;
+}
+
+.sum:hover {
+  background: black;
+  color: white;
+}
+
+.disabled:hover {
+  background: #E5E5E5;
+  border: none;
+}
+
+/* product info */
+
+.product-content {
+  padding-top: 105px;
+}
+
+.product-about {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-container {
+  padding: 10px 10px 50px 10px;
+}
+
+.photo {
+  width: 345px;
+  height: 200px;
+}
+
+.product-info {
+  height: 250px;
+  margin-left: 50px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-container {
+  margin-top: 70px;
+}
+
+.product-price {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.product-name {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.product-bts {
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-bts>.cart-card-button {
+  margin: 0;
+}
+
+.product-colors {
+  margin-bottom: 20px;
+  width: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .color > input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+} */
+
+.color {
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.color:nth-child(1) {
+  background-color: #323232;
+}
+
+.color:nth-child(2) {
+  background-color: #7ED56F;
+}
+
+.color:nth-child(3) {
+  background-color: #28B485;
+}
+
+.color input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.color.active:before {
+  content: '';
+  position: absolute;
+  margin-top: -4px;
+  margin-left: -4px;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #323232;
+  border-radius: 50%;
+}
+
+.photos-slide {
+  width: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-slide {
+  width: 12px;
+  height: 12px;
+  border: 3px solid #323232;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.product-features {
+  width: 66.6vw;
+  padding-top: 50px;
+}
+
+.features-title {
+  font-size: 36px;
+}
+
+.features-list-container {
+  margin-top: 40px;
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 19px;
+}
+
+.features-list {
+  padding-right: 20px;
+  font-weight: 500;
+  border-right: 3px solid #323232;
+}
+
+.features-list>ul>li+li {
+  margin-top: 10px;
+}
+
+.features-list-values>ul>li+li {
+  margin-top: 10px;
+}
+
+.features-list-values>ul>li:nth-child(3) {
+  line-height: 46px;
+}
+
+.features-list-values {
+  margin-left: 10px;
+}
+
+.empty-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content>.cart-card-button {
+  margin-top: 100px;
+}
+
+/* other styles */
+
+.filled {
+  background: #323232;
+}
+
+.disabled {
+  background: #E5E5E5;
+  color: white;
+  pointer-events: none;
+}

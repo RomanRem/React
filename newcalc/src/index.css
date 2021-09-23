@@ -1,0 +1,21 @@
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  justify-content: center;
+  text-align: center;
+  line-height: 50px;
+
+}
+.status{
+  display: flex;
+  flex-wrap: wrap;
+  width: 212px;
+  height: 25px;
+
+  justify-content: flex-end;
+
+  border: 2px solid red;
+  margin-left: 92px;
+  margin-top: 30px;
+}
