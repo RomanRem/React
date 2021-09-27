@@ -3,23 +3,17 @@ import './style.css';
 
 
 export default class Result extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state= {
-            currentNumber: this.props.value
 
-        }
-           }
-        render(){
+    render() {
 
-            return(
-                    <div>
-                    <div className="status"/>
-                    </div>
+        return (
+            <div>
+                <div className='status'>{this.props.currentNumber}</div>
+            </div>
 
-            )
+        )
 
-        }
+    }
 
 }
 
