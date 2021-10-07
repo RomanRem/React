@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import '../../../../../testcalc/src/Components/Button/style.css';
 
 export default class Button extends React.Component {
 
